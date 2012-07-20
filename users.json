@@ -1,0 +1,36 @@
+{
+    "Male": [
+        {
+            "uid": 123456,
+            "name": "Christopher Nguyen",
+            "sex": "male"
+        },
+        {
+            "uid": 123457,
+            "name": "Joseph Chin",
+            "sex": "male"
+        },
+        {
+            "uid": 123458,
+            "name": "Putra Harsono",
+            "sex": "male"
+        }
+    ],
+    "Female": [
+        {
+            "uid": 654321,
+            "name": "Thu Tran",
+            "sex": "female"
+        },
+        {
+            "uid": 122222,
+            "name": "Lauren Ashley",
+            "sex": "female"
+        },
+        {
+            "uid": 232258,
+            "name": "Jen Smith",
+            "sex": "female"
+        }
+    ]
+}

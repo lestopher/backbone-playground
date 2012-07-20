@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span6" id="selection"></div>
+        <div class="span6" id="user-details"></div>
+      </div>
+    </div>
+
+    <!-- Templates -->
+    <script type="text/template" id="tpl-user-list-item">
+      <% for(var i=0; i<Male.length; ++i) { %> 
+        <a href='#group/<%= Male[i].uid %>'><%= Male[i].name %></a>
+      <% } %>
+      <% for(var i=0; i<Female.length; ++i) { %> 
+        <a href='#group/<%= Female[i].uid %>'><%= Female[i].name %></a>
+      <% } %>
+    </script>
+
+    <script type="text/template" id="tpl-user-details">
+      <div class="row">
+        <div class="span6">
+            <label>Id: <%= uid %></label>
+            <label>Name: <%= name %></label>
+        </div>
+      </div>
+    </script>
+
+
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.7.2.min.js'></script>
+    <script type='text/javascript' src='assets/bootstrap/js/bootstrap.min.js'></script>
+    <script type='text/javascript' src='assets/underscore-min.js'></script>
+    <script type='text/javascript' src='assets/backbone-min.js'></script>
+    <script type='text/javascript' src='assets/bbjs.js'></script> 
+
+  </body>
+</html>
